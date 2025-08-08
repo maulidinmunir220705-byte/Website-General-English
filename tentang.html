@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Foto - SMAN 1 Contoh</title>
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #2E86C1;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 30px;
+    }
+
+    .gallery-item {
+      width: 300px;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item img:hover {
+      transform: scale(1.05);
+    }
+
+    .download-btn {
+      margin-top: 10px;
+      display: inline-block;
+      background-color: #2E86C1;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 0.9em;
+      transition: background-color 0.3s;
+    }
+
+    .download-btn:hover {
+      background-color: #1B4F72;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .back-link a {
+      text-decoration: none;
+      color: #2E86C1;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Galey Class EGYPT</h1>
+  </header>
+
+  <div class="gallery">
+
+    <div class="gallery-item">
+  <video width="300" height="200" controls>
+    <source src="Aset/foto/foto3.mp4" type="video/mp4">
+    Browser Anda tidak mendukung pemutar video.
+  </video>
+  
+  <a href="Aset/foto/foto3.mp4" download class="download-btn">Download Video</a>
+</div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto4.jpg" target="_blank">
+        <img src="Aset/foto/foto4.jpg" alt="Kegiatan 1">
+      </a>
+      <a href="Aset/foto/Kegiatan1.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto3.jpg" target="_blank">
+        <img src="Aset/foto/foto3.jpg" alt="Kegiatan 2">
+      </a>
+      <a href="Aset/foto/Kegiatan2.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto5.jpg" target="_blank">
+        <img src="Aset/foto/foto5.jpg" alt="Kelas Mesir">
+      </a>
+      <a href="Aset/foto/KelasMesir.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto8.jpg" target="_blank">
+        <img src="Aset/foto/foto8.jpg" alt="Upacara Bendera">
+      </a>
+      <a href="Aset/foto/Upacara.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto9.jpg" target="_blank">
+        <img src="Aset/foto/foto9.jpg" alt="Acara Perpisahan">
+      </a>
+      <a href="Aset/foto/Perpisahan.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto10.jpg" target="_blank">
+        <img src="Aset/foto/foto10.jpg" alt="Acara Perpisahan">
+      </a>
+      <a href="Aset/foto/Perpisahan.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto11.jpg" target="_blank">
+        <img src="Aset/foto/foto11.jpg" alt="Acara Perpisahan">
+      </a>
+      <a href="Aset/foto/Perpisahan.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto12.jpg" target="_blank">
+        <img src="Aset/foto/foto12.jpg" alt="Acara Perpisahan">
+      </a>
+      <a href="Aset/foto/Perpisahan.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="Aset/foto/foto13.jpg" target="_blank">
+        <img src="Aset/foto/foto13.jpg" alt="Acara Perpisahan">
+      </a>
+      <a href="Aset/foto/Perpisahan.jpg" download class="download-btn">Download</a>
+    </div>
+
+    
+
+  </div>
+
+  <div class="back-link">
+    <a href="index.html">← Kembali ke Beranda</a>
+  </div>
+
+  <footer>
+    &copy; Maulidin Munir
+  </footer>
+
+</body>
+</html>
